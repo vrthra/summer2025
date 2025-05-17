@@ -1,6 +1,6 @@
-# SBST22 Tutorial
+# NUS Fuzzing Summer School Lecture
 
-This is the repository for the [SBST 2022 tutorial](https://sbst22.github.io/keynotes/) on "Learning and Refining Input Grammars for Effective Fuzzing".
+This is the repository for the [NUS Summer School lecture](https://fuzzing.comp.nus.edu.sg/) on "Learning and Refining Input Grammars for Effective Fuzzing".
 
 One of the concerns in search based software engineering is the search space.
 Our algorithms can be more performant if we can constrain this search space.
