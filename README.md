@@ -56,6 +56,21 @@ In particular, we will see:
   $ cd summer2025
   $ source bin/activate
   ```
+- Install `z3` You need to first clone
+  ```
+  git clone https://github.com/Z3Prover/z3.git
+  ```
+  Then, cd to `z3` and
+  ```
+  python scripts/mk_make.py --python
+  cd build
+  make
+  make install
+  ```
+  You will find Z3 and the Python bindings installed in the virtual environment
+  ...
+  python -c 'import z3; print(z3.get_version_string())'
+  ...
 - Install [Jupyter](https://jupyter.org/).
   ```
   $ ./bin/python3 -m pip install "jupyter==1.0.0"
