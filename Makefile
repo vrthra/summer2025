@@ -12,4 +12,4 @@ install:
 	$(pip) install -r requirements.txt
 
 start:
-	$(python) -m jupyterlab
+	$(python) -m jupyterlab ./RoadMap.ipynb
