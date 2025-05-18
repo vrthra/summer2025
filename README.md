@@ -38,11 +38,11 @@ In particular, we will see:
 
 ## Prerequisites
 
-- Download [Python 3.10](https://www.python.org/downloads/)
+- Download [Python 3.12](https://www.python.org/downloads/)
    
   Some variation of
   ```
-  $ sudo apt-get install python3.10
+  $ sudo apt-get install python3.12
   ```
 - Install [Graphviz](https://graphviz.org/download/) for your operating system.
   
@@ -52,8 +52,8 @@ In particular, we will see:
   ```
 - Make a virtual environment (recommended)
   ```
-  $ python3 -m venv sbst2022
-  $ cd sbt2022
+  $ python3 -m venv summer2025
+  $ cd summer2025
   $ source bin/activate
   ```
 - Install [Jupyter](https://jupyter.org/).
@@ -66,7 +66,7 @@ In particular, we will see:
   ```
 - Start the Jupyter server in the repository directory
   ```
-  $ cd SBST22-tutorial
+  $ cd summer2025
   $ jupyter-notebook
   ```
   This opens a browser window at http://localhost:8888/tree
