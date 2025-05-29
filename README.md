@@ -77,7 +77,7 @@ In particular, we will see:
   ```
 - Checkout this repository
   ```
-  git clone git@github.com:vrthra/SBST22-tutorial.git
+  git clone git@github.com:vrthra/summer2025.git
   ```
 - Start the Jupyter server in the repository directory
   ```
